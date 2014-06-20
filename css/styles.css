@@ -1,0 +1,18 @@
+body{
+	background: rgb(10, 10, 10);
+}
+div.container{
+	margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+  	width: 700px;
+  	height: 500px;
+}
+g.column circle{
+	fill: rgb(30, 30, 30);
+	transition: all 0.2s ease;
+}
+g.column circle.on{
+	fill: rgb(0, 80, 180);
+	box-shadow: 0 0 15px rgb(0, 80, 180);
+}
